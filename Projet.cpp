@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-typedef tLivraison
+typedef tLivraison;
 typedef struct Ville {
 	int numVille;
 	struct Ville * villeSuivante;
