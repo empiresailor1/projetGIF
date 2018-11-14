@@ -1,5 +1,22 @@
 #include <stdio.h>
 
+typedef tLivraison
+typedef struct Ville {
+	int numVille;
+	struct Ville * villeSuivante;
+	struct Ville * villeSPrecedente;
+	tLivraison * listeLivraison;	
+	
+} tVille;
+
+typedef struct Livraison {
+	int chauffeur;
+	int capacité;
+	int disponible;
+	struct Livraison * livraisonSuivant;
+	tVille * enLivrason;	
+} tLivraison;
+
 
 int main()
 {	
